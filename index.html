@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap 5</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  </head>
+  <body>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark border-3 border-bottom border-primary"
+      >
+        <div class="container">
+          <span class="navbar-brand mb-0 h1">Cities In The World</span>
+          <ul class="navbar-nav me-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div
+        id="carousel-banner"
+        class="carousel slide bg-secondary border-3 border-bottom border-primary"
+      >
+        <div class="carousel-inner d-flex justify-content-around">
+          <div class="carousel-item active justify-content-center">
+            <img
+              src="./imgs/albacete.jpg"
+              class="d-block w-50"
+              alt="UNOOOOOOO"
+            />
+            <div class="carousel-caption d-flex">
+              <h3>The Most Popular City</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./imgs/japon.jpg" class="d-block w-50" alt="DOOOOOOOOS" />
+            <div class="carousel-caption d-flex">
+              <h3>The Most Popular City</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./imgs/merida.jpg" class="d-block w-50" alt="TREEEEEES" />
+            <div class="carousel-caption d-flex">
+              <h3>The Most Popular City</h3>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel-banner"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel-banner"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div
+        id="mainPage"
+        class="d-flex"
+      >
+        <div
+          id="ranking-countries"
+          class="container w-50 border"
+        >
+          <div class="row border border-secondary ms-2 me-2 mt-2">
+            <div class="col-5"><br>Ranking - Most Visited</div>
+            <div class="row-cols-md-1 mb-4">
+            <div class="col-9 border border-secondary text-end text-white bg-secondary"><br><br><br><br>Name of the city</div>
+          </div>
+          <div class="row-cols-md-1 mb-4">
+            <div class="col-9 border border-secondary text-end text-white bg-secondary"><br><br><br><br>Name of the city</div>
+          </div>
+          <div class="row-cols-md-1 mb-4">
+            <div class="col-9 border border-secondary text-end text-white bg-secondary"><br><br><br><br>Name of the city</div>
+          </div>
+          <div class="row-cols-md-1 mb-4">
+            <div class="col-9 border border-secondary text-end text-white bg-secondary"><br><br><br><br>Name of the city</div>
+          </div>
+          <div class="row-cols-md-1 mb-4">
+            <div class="col-9 border border-secondary text-end text-white bg-secondary"><br><br><br><br>Name of the city</div>
+          </div>
+          
+            
+          </div>
+        </div>
+        <div
+          id="target-of-places"
+          class="container  d-flex flex-wrap justify-content-between"
+        >
+          <div class="card mt-4" style="width: 16rem">
+            <img class="card-img-top" src="./imgs/japon.jpg" alt="japon" />
+            <div class="card-body">
+              <h5 class="card-title">ALBACETE</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card mt-4" style="width: 16rem">
+            <img class="card-img-top" src="./imgs/albacete.jpg" alt="albacete" />
+            <div class="card-body">
+              <h5 class="card-title">MERIDA</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card mt-4" style="width: 16rem">
+            <img class="card-img-top" src="./imgs/japon.jpg" alt="japon" />
+            <div class="card-body">
+              <h5 class="card-title">SAN SEBASTIAN</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card mt-4 mb-4" style="width: 16rem">
+            <img class="card-img-top" src="./imgs/japon.jpg" alt="japon" />
+            <div class="card-body">
+              <h5 class="card-title">MIAMI</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card mt-4 mb-4" style="width: 16rem">
+            <img class="card-img-top" src="./imgs/albacete.jpg" alt="albacete" />
+            <div class="card-body">
+              <h5 class="card-title">ALBACETE</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card mt-4 mb-4" style="width: 16rem">
+            <img class="card-img-top" src="./imgs/japon.jpg" alt="japon" />
+            <div class="card-body">
+              <h5 class="card-title">MURCIA</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="add-restaurants-banner" class="bg-secondary border-3 border-bottom border-primary">
+        <div id="title"><h3 class="container text-center text-white bg-secondary">Most Popular Restaurant</h3></div>
+        <div id="adds-of-restaurants" class="container d-flex flex-wrap justify-content-between">
+          <div class="card mt-4 border-0 bg-secondary" style="width: 11rem">
+            <img class="card-img-top rounded-circle" src="./imgs/merida.jpg" alt="merida" />
+            <div class="card-body">
+              <h5 class="card-title text-white bg-secondary">RESTAURANT 1</h5>
+              <p class="card-text text-white bg-secondary">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card mt-4 border-0 bg-secondary" style="width: 11rem">
+            <img class="card-img-top rounded-circle" src="./imgs/albacete.jpg" alt="albacete" />
+            <div class="card-body">
+              <h5 class="card-title text-white bg-secondary">RESTAURANT 2</h5>
+              <p class="card-text text-white bg-secondary">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card mt-4 border-0 bg-secondary" style="width: 11rem">
+            <img class="card-img-top rounded-circle" src="./imgs/merida.jpg" alt="merida" />
+            <div class="card-body">
+              <h5 class="card-title text-white bg-secondary">RESTAURANT 3</h5>
+              <p class="card-text text-white bg-secondary">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card mt-4 border-0 bg-secondary" style="width: 11rem">
+            <img class="card-img-top rounded-circle" src="./imgs/albacete.jpg" alt="albacete" />
+            <div class="card-body">
+              <h5 class="card-title text-white bg-secondary">RESTAURANT 4</h5>
+              <p class="card-text text-white bg-secondary">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <footer>
+      <div class="p-4 d-flex" style="background-color: rgba(0, 0, 0, 0.05);">
+        <a class="navbar-brand" href="#">
+          <img src="./imgs/Bootstrap_logo.svg.png" class="me-2" height="20"/>
+        </a>
+        <small>© 2021 Company, Inc</small>
+        <div class="container text-end w-75 me-0">
+          <i class="bi bi-buildings-fill ms-3 me-3"></i>
+        <i class="bi bi-bus-front-fill ms-3 me-3"></i>
+        <i class="bi bi-droplet-half ms-3 me-3"></i>
+      </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</html>
